@@ -1,0 +1,99 @@
+/******************************************************
+GENERAL
+******************************************************/
+/*font-family: 'Vollkorn SC', serif;
+font-family: 'Source Sans Pro', sans-serif;
+Primary Dark = #1B2355
+Pimary Light = #A0CCE3
+Secondary Dark = #F66464
+Secondary Light = #E79294
+Tertiary Dark = #8A859B
+Tertiary Mid = #BAC0BA
+Tertiary Light = #E8ECEF*/
+
+/******************************************************
+NAVIGATION
+******************************************************/
+
+
+.margin-20-l{
+  margin-left
+
+}
+
+
+
+
+/******************************************************
+HOME
+******************************************************/
+#home {
+  height: 90vh;
+  text-align: center;
+  background: url(https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif);
+  background-size: cover;
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+}
+
+#home header {
+  position: relative;
+  top: 30%;
+  background-color: rgba(160, 204, 227, 0.5);
+  background-color: rgba(160, 204, 227, 0.5);
+  color: #E8ECEF;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1b2355+0,1b2355+100&0+0,0.7+16,1+52,0.7+85,0+100 */
+  background: -moz-linear-gradient(left, rgba(27,35,85,0) 0%, rgba(27,35,85,0.7) 16%, rgba(27,35,85,1) 52%, rgba(27,35,85,0.7) 85%, rgba(27,35,85,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(27,35,85,0) 0%,rgba(27,35,85,0.7) 16%,rgba(27,35,85,1) 52%,rgba(27,35,85,0.7) 85%,rgba(27,35,85,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(27,35,85,0) 0%,rgba(27,35,85,0.7) 16%,rgba(27,35,85,1) 52%,rgba(27,35,85,0.7) 85%,rgba(27,35,85,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001b2355', endColorstr='#001b2355',GradientType=1 ); /* IE6-9 */
+  padding: 10px 0;
+}
+
+#home header p {
+  text-align: center;
+}
+
+/******************************************************
+MAIN (about-me)
+******************************************************/
+
+
+/******************************************************
+PROJECTS
+******************************************************/
+div.portfolio-img {
+  height: 20vh;
+  background-size: cover;
+  background-position: center 15%;
+}
+
+
+
+div.iron-man {
+  background-image: url(../images/IronMan.jpg);
+}
+
+.phoenix {
+  background-image: url(../images/Phoenix.jpg);
+}
+
+.storm {
+  background-image: url(../images/Storm.jpg);
+}
+
+.gambit {
+  background-image: url(../images/Gambit.jpg);
+}
+
+/******************************************************
+RESUME
+******************************************************/
+
+/******************************************************
+CONTACT
+******************************************************/
+
+
+/******************************************************
+******************************************************/
