@@ -1,0 +1,27 @@
+@import 'SASS/variables';
+@import 'SASS/izzy_mixins';
+
+@import 'SASS/document';
+@import 'SASS/navigation';
+@import 'SASS/home';
+@import 'SASS/projects';
+@import 'SASS/resume';
+@import 'SASS/contact_and_media';
+
+
+
+#about-me {
+  padding-top: 10px;  /* as opposed to margin-top which doesn't work*/
+  text-align: center;
+}
+#about-me div {
+  margin: 0 10%;
+}
+
+
+
+// @media only screen and (min-width: 769px) {
+//   body {
+//     background-color: red;
+//   }
+// }
